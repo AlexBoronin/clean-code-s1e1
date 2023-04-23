@@ -29,7 +29,7 @@ body {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .new-task-row-wrapper {
@@ -135,7 +135,7 @@ body {
 }
 
 .task {
-    width: 226px
+    width: 226px;
 }
 
 .delete_image {
@@ -162,7 +162,7 @@ body {
 .editMode .task {
     display: inline-block;
     margin-left: 10px;
-    width: 224px
+    width: 224px;
 }
 
 .editMode .task-lbl {
@@ -183,9 +183,12 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 380px) {
     .editMode .task {
-        width: unset;
+        width: unset;[]
         max-width: 50%;
+    }
+    .delete_image {
+        height: 1.5em;
     }
 }
