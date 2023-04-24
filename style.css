@@ -26,12 +26,6 @@ body {
     margin: 0 auto 0;
 }
 
-.task {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1;
-}
-
 .new-task-row-wrapper {
     display: flex;
 }
@@ -77,6 +71,9 @@ body {
 }
 
 .task {
+    width: 56%;
+    display: inline-block;
+    flex-grow: 1;
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -107,10 +104,6 @@ body {
     cursor: pointer;
 }
 
-.new-task {
-    width: 318px;
-}
-
 /* Task list */
 .task-item {
     overflow: hidden;
@@ -132,10 +125,7 @@ body {
     font-size: 18px;
     width: 226px;
     overflow: hidden;
-}
-
-.task {
-    width: 226px;
+    flex-grow: 1;
 }
 
 .delete_image {
@@ -162,7 +152,6 @@ body {
 .editMode .task {
     display: inline-block;
     margin-left: 10px;
-    width: 224px;
 }
 
 .editMode .task-lbl {
@@ -184,10 +173,6 @@ body {
 }
 
 @media (max-width: 380px) {
-    .editMode .task {
-        width: unset;[]
-        max-width: 50%;
-    }
     .delete_image {
         height: 1.5em;
     }
