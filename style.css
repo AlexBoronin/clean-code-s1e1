@@ -160,6 +160,7 @@ body {
 
 
 @media (max-width: 768px) {
+
   .more {
     text-align: center;
       width: unset;
@@ -170,10 +171,13 @@ body {
     width: unset;
     max-width: 500px;
   }
+
 }
 
 @media (max-width: 380px) {
+
   .delete_image {
     height: 1.5em;
   }
+
 }
