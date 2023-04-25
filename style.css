@@ -1,99 +1,99 @@
 /* Basic Style */
 body {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 
 .more {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
 }
 
 .more__image {
-    width: 100%;
+  width: 100%;
 }
 
 .more__inf {
-    font-family: fantasy, cursive;
+  font-family: fantasy, cursive;
 }
 
 .centered-elements {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
 }
 
 .new-task-row-wrapper {
-    display: flex;
+  display: flex;
 }
 
 .task-items {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .task-item {
-    list-style: none;
+  list-style: none;
 }
 
 .btn {
-    background: none;
-    border: none;
-    color: #888;
-    font-size: 15px;
-    width: 60px;
-    font-family: Lato, sans-serif;
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
 }
 
 .check,
 .btn,
 .task{
-    outline: none;
+  outline: none;
 }
 
 .btn:hover {
-    color: #3a3A3a;
+  color: #3a3A3a;
 }
 
 /* Heading */
 .section-title,
 .add-item {
-    color: #333;
-    font-weight: 700;
-    font-size: 15px;
-    border-bottom: 2px solid #333;
-    padding: 30px 0 10px;
-    margin: 0;
-    text-transform: uppercase;
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .task {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1;
-    margin: 0;
-    font-size: 18px;
-    line-height: 18px;
-    height: 21px;
-    padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
-    border-radius: 6px;
-    font-family: Lato, sans-serif;
-    color: #888;
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #dDd;
+  background: #FFF;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
 }
 
 .task:focus {
-    color: #333;
+  color: #333;
 }
 
 /* New Task */
 .add-item {
-    display: block;
-    margin: 0 0 20px;
+  display: block;
+  margin: 0 0 20px;
 }
 
 .add-item-title,
@@ -101,79 +101,83 @@ body {
 .btn,
 .task-lbl,
 .check {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* Task list */
 .task-item {
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    vertical-align: middle;
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
 }
 
 .check {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .task-lbl {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;
-    overflow: hidden;
-    flex-grow: 1;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
+  overflow: hidden;
+  flex-grow: 1;
 }
 
 .delete_image {
-    height: 2em;
-    transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
 }
 
 .delete_image:hover {
-    transform: rotateZ(0);
+  transform: rotateZ(0);
 }
 
 /* Completed */
 .task-items.completed .task-lbl {
-    text-decoration: line-through;
-    color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 .task-items .task {
-    display: none;
+  display: none;
 }
 
 .editMode .task {
-    display: inline-block;
-    margin-left: 10px;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 .editMode .task-lbl {
-    display: none;
+  display: none;
 }
 
 
 @media (max-width: 768px) {
-    .more {
-        text-align: center;
-        width: unset;
-        max-width: 500px;
-    }
 
-    .centered-elements {
-        width: unset;
-        max-width: 500px;
-    }
+  .more {
+    text-align: center;
+      width: unset;
+      max-width: 500px;
+  }
+
+  .centered-elements {
+    width: unset;
+    max-width: 500px;
+  }
+
 }
 
 @media (max-width: 380px) {
-    .delete_image {
-        height: 1.5em;
-    }
+
+  .delete_image {
+    height: 1.5em;
+  }
+
 }
