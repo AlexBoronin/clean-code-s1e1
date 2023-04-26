@@ -5,22 +5,22 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.more {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.more__image {
+.header__image {
   width: 100%;
 }
 
-.more__inf {
+.header__inf {
   font-family: fantasy, cursive;
 }
 
-.centered-elements {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto;
